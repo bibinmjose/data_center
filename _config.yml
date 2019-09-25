@@ -1,9 +1,7 @@
 # markdown: kramdown
 # kramdown:
 #     math_engine: katex
-title: Optimal Scalling of Data Center
-tagline: Easy websites with GitHub Pages
-description: Minimal tutorial on making a simple website with GitHub Pages
+title: Optimal Scaling of Data Centers for Retail Stores
 
 use_math: true
 markdown: maruku
