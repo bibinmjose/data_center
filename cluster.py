@@ -6,7 +6,7 @@ import random
 
 class Cluster():
     """ inputs:list(tuple)
-        fixed_centers:list(tuple) 
+        fixed_centers:list(tuple)
         new_centers:list(tuple)
         num_new_centers:int
     """
@@ -44,7 +44,7 @@ class Cluster():
             if assignments == new_assignments:
                 self.cluster_assign={i:a for i,a in zip(inputs,assignments)}
                 return         
-#             Otherwise keep the new assignments,
+            # Otherwise keep the new assignments
             assignments = new_assignments
 
             for i in range(self.k_num):
@@ -52,7 +52,7 @@ class Cluster():
                 # avoid divide-by-zero if i_points is empty
                 if i_points and i>=self.k_num_fixed:                        
                     self.centers[i] = tuple(np.mean(i_points, axis=0))
-        print(self.centers)
+#         print(self.centers)
             
     def cost(self, data_center_cost=2000):
         """aggregated sum of distances from corresponding cluster centers
