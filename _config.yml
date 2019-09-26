@@ -15,3 +15,5 @@ use_math: true
 #   smart_quotes: lsquo,rsquo,ldquo,rdquo
 #   enable_coderay: false
 #   math_engine: katex
+
+theme: jekyll-theme-minimal
