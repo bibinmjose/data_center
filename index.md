@@ -1,4 +1,6 @@
 
+
+
 # Problem Statement
 
 > PiedPiper has decided to diversify their business and is planning to open a retail store in the capital city of each of the states in the USA. They have also decided to use Data Centers to support the operations at each of these new retail stores however they are yet to decide on the number and location of data centers they should use and how they should allocate a retail store to data center. Can you design a solution for retail store to data center allocation to help PiedPiper expand optimally?
@@ -117,5 +119,3 @@ For a given say, `exapansion_path[0]` there is a total cost accumulated during e
 ![png](output_23_0.png)
 
 >Shown above is the expansion path for `[3, 1, 1, 1] => ['red', 'green', 'blue', 'magenta']`. Diamond markers correspond to the locations for data-centers.
-
-<script src="https://cdn.jsdelivr.net/npm/texme@0.7.0"></script>
