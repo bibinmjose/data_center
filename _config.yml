@@ -1,10 +1,9 @@
-# markdown: kramdown
-# kramdown:
-#     math_engine: katex
+markdown: kramdown
+kramdown:
+    math_engine: katex
 title: Optimal Scaling of Data Centers for Retail Stores
 
 use_math: true
-markdown: maruku
 # # Markdown Processing
 # kramdown:
 #   input: GFM
