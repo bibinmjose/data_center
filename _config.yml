@@ -3,7 +3,7 @@ kramdown:
     math_engine: katex
 title: Optimal Scaling of Data Centers for Retail Stores
 
-use_math: true
+# use_math: true
 # # Markdown Processing
 # kramdown:
 #   input: GFM
